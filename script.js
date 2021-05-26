@@ -112,7 +112,7 @@ function createNewBook(e) {
           read: newBook.read,
         };
   
-        // Put the object into storage
+        // Put the object into storage.
         const bookIndex = localStorage.length === 0 ? 0 : localStorage.length;
         localStorage.setItem(bookIndex.toString(), JSON.stringify(bookObj));
   
