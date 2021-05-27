@@ -1,0 +1,19 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "## Project Description > This is a small Library web application that allow users to add books to the Library. Added books would have the following information: - Book Title. - Author. - NUmber of pages. - Read status. > The book can also be deleted while the read status could be changed through the click of a button. - This is basically for educational purposes to better understand the object constructor concept of Javascript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccobasi/Library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccobasi/Library/issues"
+  },
+  "homepage": "https://github.com/ccobasi/Library#readme"
+}
