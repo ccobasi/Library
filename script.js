@@ -9,10 +9,19 @@ const myLibrary = [];
 //   this.read = read;
 // }
 
-function Book(title, author, pages, read = false) {
-  return {
-    title, author, pages, read,
-  };
+// function Book(title, author, pages, read = false) {
+//   return {
+//     title, author, pages, read,
+//   };
+// }
+
+class Book {
+  constructor(title, author, pages, read = false) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.read = read;
+  }
 }
 
 function addBookToLibrary(newBook) {
@@ -77,7 +86,7 @@ function displayBook(newBook) {
 }
 
 function createNewBookFromLocalStorage(title, author, pages, read) {
-  const newBook = Book(title, author, pages, read);
+  const newBook = new Book(title, author, pages, read);
   addBookToLibrary(newBook);
   displayBook(newBook);
 }
